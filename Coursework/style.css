@@ -97,8 +97,30 @@ img {
   align-items: center;
 }
 
-.video-preview{
-    margin-bottom: 1.25rem;
+.video-preview {
+  margin-bottom: 1.25rem;
+}
+
+/* testimonials */
+
+.testimonials{
+    padding: 2rem 0;
+}
+
+.testimonials .testimonials-heading{
+    width: 700px;
+    margin-bottom: 3rem;
+}
+
+.testimonials-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.testimonials .card p:nth-child(2){
+    margin-top: 2.5rem;
+    font-weight: bold;
 }
 
 /* utilities  */
@@ -187,25 +209,32 @@ img {
   text-align: center;
 }
 
-
 /* Background */
 
-.bg-primary{
-    background-color: var(--primary-color);
-    color: #fff;
+.bg-primary {
+  background-color: var(--primary-color);
+  color: #fff;
 }
 
-.bg-light{
-    background-color: var(--light-color);
-    color: #333;
+.bg-light {
+  background-color: var(--light-color);
+  color: #333;
 }
 
-.bg-dark{
-    background-color: var(--dark-color);
-    color: #fff;
+.bg-dark {
+  background-color: var(--dark-color);
+  color: #fff;
 }
 
-.bg-black{
-    background-color: #000000;
-    color: #fff;
+.bg-black {
+  background-color: #000000;
+  color: #fff;
+}
+
+/* card */
+.card{
+    background: #fff;
+    color: #000;
+    border-radius: .75rem;
+    padding: 1.25rem;
 }
