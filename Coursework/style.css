@@ -103,24 +103,59 @@ img {
 
 /* testimonials */
 
-.testimonials{
-    padding: 2rem 0;
+.testimonials {
+  padding: 2rem 0;
 }
 
-.testimonials .testimonials-heading{
-    width: 700px;
-    margin-bottom: 3rem;
+.testimonials .testimonials-heading {
+  width: 700px;
+  margin-bottom: 3rem;
 }
 
-.testimonials-grid{
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.testimonials .card p:nth-child(2) {
+  margin-top: 2.5rem;
+  font-weight: bold;
+}
+
+/* pricing */
+.pricing-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-top: 3rem;
     gap: 2rem;
 }
 
-.testimonials .card p:nth-child(2){
-    margin-top: 2.5rem;
-    font-weight: bold;
+.pricing .pricing-card-subheading{
+    margin-bottom: 2rem;
+}
+
+.pricing .pricing-card-price{
+    margin-bottom: 2rem;
+    padding: 1.25rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.pricing ul {
+    margin: 2rem 0;
+}
+
+.pricing ul li{
+    margin-bottom: 1.25rem;
+}
+
+.pricing ul li i{
+    margin-right: 0.5rem;
+}
+
+.pricing-footer{
+    margin: 2rem 0;
 }
 
 /* utilities  */
@@ -146,6 +181,7 @@ img {
   border: none;
   border-radius: 0.75rem;
   cursor: pointer;
+  text-align: center;
   transition: 0.5s;
 }
 
@@ -209,6 +245,15 @@ img {
   text-align: center;
 }
 
+/* card */
+.card {
+  background: #fff;
+  color: #000;
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  height: fit-content;
+}
+
 /* Background */
 
 .bg-primary {
@@ -229,12 +274,4 @@ img {
 .bg-black {
   background-color: #000000;
   color: #fff;
-}
-
-/* card */
-.card{
-    background: #fff;
-    color: #000;
-    border-radius: .75rem;
-    padding: 1.25rem;
 }
