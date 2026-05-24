@@ -124,38 +124,98 @@ img {
 }
 
 /* pricing */
-.pricing-grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    margin-top: 3rem;
-    gap: 2rem;
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin-top: 3rem;
+  gap: 2rem;
 }
 
-.pricing .pricing-card-subheading{
-    margin-bottom: 2rem;
+.pricing .pricing-card-subheading {
+  margin-bottom: 2rem;
 }
 
-.pricing .pricing-card-price{
-    margin-bottom: 2rem;
-    padding: 1.25rem 0;
-    border-bottom: 1px solid #ccc;
+.pricing .pricing-card-price {
+  margin-bottom: 2rem;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid #ccc;
 }
 
 .pricing ul {
-    margin: 2rem 0;
+  margin: 2rem 0;
 }
 
-.pricing ul li{
-    margin-bottom: 1.25rem;
+.pricing ul li {
+  margin-bottom: 1.25rem;
 }
 
-.pricing ul li i{
-    margin-right: 0.5rem;
+.pricing ul li i {
+  margin-right: 0.5rem;
 }
 
-.pricing-footer{
-    margin: 2rem 0;
+.pricing-footer {
+  margin: 2rem 0;
+}
+
+/* faq */
+
+.faq {
+  padding: 3rem 0;
+}
+
+.faq-group {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1.25rem;
+}
+
+.faq .faq-group .faq-group-header {
+  padding: 1.25rem 0;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.faq .faq-group .faq-group-header h4 {
+  font-weight: 600;
+  width: 95%;
+}
+.faq .faq-group .faq-group-header i {
+  position: absolute;
+  right: 0;
+  top: 2rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.faq .faq-group .faq-group-body {
+  display: none;
+}
+
+.faq .faq-group .faq-group-body.open {
+  display: block;
+}
+
+.faq ul.faq-menu {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ddd;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.faq ul.faq-menu li {
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+
+.faq ul.faq-menu li.active{
+background-color: var(--primary-color);
+color: #fff;
 }
 
 /* utilities  */
