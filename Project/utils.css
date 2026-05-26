@@ -14,8 +14,18 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
-  background-color: #ffffff;
   overflow-x: hidden;
+  background-color: #aeaeae6b;
+}
+
+.card{
+  background: #fff;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
 }
 
 ul {
@@ -27,7 +37,7 @@ ul {
 }
 
 .border-lg{
-  border-radius: 2rem;
+  border-radius: 1.25rem;
 }
 
 .bg-dark{
