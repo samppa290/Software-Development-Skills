@@ -17,19 +17,41 @@
             class="navigation-image"
           />
           <div class="navigation-text-container">
-            <span class="navigation-heading">Miro Kymäläinen</span>
-            <span class="navigation-paragraph"
+            <span class="text-md no-margin">Miro Kymäläinen</span>
+            <span class="sub-heading no-margin"
               >SaaS, E-commerce, Consulting</span
             >
           </div>
         </div>
-        <div class="navigation-navigation-container">
+        <div class="navigation-navigation-container nav-mobile-hidden">
           <ul>
-            <li>Home</li>
-            <li>Projects</li>
-            <li>About</li>
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li><a href="#projects">Projects</a></li>
           </ul>
-          <button class="navigation-button">Contact</button>
+          <button class="btn btn-primary">
+            <a href="./contact.html">Contact</a>
+          </button>
+        </div>
+        <button
+          id="hamburger-button"
+          class="hamburger-button nav-desktop-hidden"
+        >
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+        </button>
+        <div class="mobile-menu nav-desktop-hidden">
+          <ul>
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+          <button class="btn btn-primary">
+            <a href="./contact.html">Contact</a>
+          </button>
         </div>
       </div>
     </nav>
@@ -37,9 +59,10 @@
       <div class="section-hero-container container">
         <div class="card border-lg">
           <div class="hero-card-section">
-            <span class="hero-card-subheading">Hey, I'm Miro </span>
-            <h1 class="hero-card-heading">
-              I help founders build quiet products that people actually pay for.
+            <span class="sub-heading">Hey, I'm Miro </span>
+            <h1 class="text-xxl">
+              I help founders build products that people
+              <span class="color-grey"> actually pay for. </span>
             </h1>
           </div>
         </div>
@@ -54,9 +77,11 @@
             </div>
           </div>
           <div class="hero-card-section">
-            <p class="hero-card-subheading">Specialization</p>
-            <p class="hero-card-subheading">SaaS, E-commerce, Consulting</p>
-            <button class="hero-button">Let's work together</button>
+            <p class="sub-heading">Specialization</p>
+            <p class="text-sm">SaaS, E-commerce, Consulting</p>
+            <button class="btn btn-primary btn-block">
+              Let's work together
+            </button>
           </div>
         </div>
       </div>
@@ -64,14 +89,14 @@
     <section class="section-about">
       <div class="container">
         <div class="card border-lg about-card">
-          <div class="about-card-heading-container">Location</div>
+          <div class="sub-heading">Location</div>
           <div class="about-card-container">
             <span class="text-xxl">20:07</span>
-            <p class="about-card-location">Helsinki Finland</p>
+            <p class="text-sm">Helsinki Finland</p>
           </div>
         </div>
         <div class="card border-lg about-card">
-          <div class="about-card-heading-container">Stack</div>
+          <div class="sub-heading">Stack</div>
           <div class="stack-card-container">
             <div class="stack-snippet">Next.js</div>
             <div class="stack-snippet">React</div>
@@ -83,26 +108,27 @@
           </div>
         </div>
         <div class="card border-lg about-card">
-          <div class="about-card-heading-container">Location</div>
+          <div class="sub-heading">Based in</div>
           <div class="about-card-container">
-            <span class="text-xxl">20:07</span>
-            <p class="about-card-location">Helsinki Finland</p>
+            <span class="text-xl">🇫🇮 Finland</span>
           </div>
         </div>
         <div class="card border-lg about-card">
-          <div class="about-card-heading-container">Location</div>
+          <div class="sub-heading">Status</div>
           <div class="about-card-container">
-            <span class="text-xxl">20:07</span>
-            <p class="about-card-location">Helsinki Finland</p>
+            <span class="text-md">Working on</span>
+            <p class="text-sm">Finishing school</p>
           </div>
         </div>
       </div>
     </section>
-    <section class="section-projects">
+    <section id="projects" class="section-projects">
       <div class="container">
-        <div class="card border-lg section-projects-heading">
-          <h2>Projects</h2>
-          <p>Lorem ipsum dolorose</p>
+        <div class="contact-section-header flex">
+          <div class="blob"></div>
+          <div>
+            <h2 class="text-p">Projects</h2>
+          </div>
         </div>
         <div class="section-projects-container">
           <div class="project-card card border-lg">
@@ -110,66 +136,67 @@
               <span> SaaS | 2025 </span>
             </div>
             <div class="project-card-image">
-              <img src="./images/placeholder.png" alt="" />
+              <img src="./images/placeholder.png" alt="Country side" />
             </div>
             <div class="project-card-footer">
               <div class="icon-link-container">
                 <img src="./images/arrow-up-right.svg" alt="Arrow up right" />
               </div>
               <h3 class="project-card-heading">MailMoo</h3>
-              <p class="project-card-paragraph">
-                Modern day sales automation platform
-              </p>
+              <p class="text-sm">Modern day sales automation platform</p>
             </div>
           </div>
           <div class="project-card card border-lg">
             <div class="project-badge">
-              <span> SaaS | 2025 </span>
+              <span> E-commerce |2024 </span>
             </div>
             <div class="project-card-image">
-              <img src="./images/placeholder.png" alt="" />
+              <img
+                src="./images/ob.webp"
+                alt="Nature with mountains and deer"
+              />
             </div>
             <div class="project-card-footer">
               <div class="icon-link-container">
                 <img src="./images/arrow-up-right.svg" alt="Arrow up right" />
               </div>
-              <h3 class="project-card-heading">MailMoo</h3>
-              <p class="project-card-paragraph">
-                Modern day sales automation platform
-              </p>
+              <h3 class="project-card-heading">Oscar Blue</h3>
+              <p class="text-sm">The modern sleep brand</p>
             </div>
           </div>
           <div class="project-card card border-lg">
             <div class="project-badge">
-              <span> SaaS | 2025 </span>
+              <span> Consulting |2022 </span>
             </div>
             <div class="project-card-image">
-              <img src="./images/placeholder.png" alt="" />
+              <img src="./images/placeholder.png" alt="Countryside" />
             </div>
             <div class="project-card-footer">
               <div class="icon-link-container">
                 <img src="./images/arrow-up-right.svg" alt="Arrow up right" />
               </div>
-              <h3 class="project-card-heading">MailMoo</h3>
-              <p class="project-card-paragraph">
-                Modern day sales automation platform
-              </p>
+              <h3 class="project-card-heading">SauceSoft</h3>
+              <p class="text-sm">All in one software consultation</p>
             </div>
           </div>
           <div class="project-card card border-lg">
             <div class="project-badge">
-              <span> SaaS | 2025 </span>
+              <span> Something new | 2026 </span>
             </div>
             <div class="project-card-image">
-              <img src="./images/placeholder.png" alt="" />
+              <img
+                style="width: 30%"
+                src="./images/circle-question-mark.svg"
+                alt="Question mark"
+              />
             </div>
             <div class="project-card-footer">
               <div class="icon-link-container">
                 <img src="./images/arrow-up-right.svg" alt="Arrow up right" />
               </div>
-              <h3 class="project-card-heading">MailMoo</h3>
-              <p class="project-card-paragraph">
-                Modern day sales automation platform
+              <h3 class="project-card-heading">Next Venture?</h3>
+              <p class="text-sm">
+                Should we do something together? Let's have a chat!
               </p>
             </div>
           </div>
@@ -178,20 +205,77 @@
     </section>
     <section class="contact-section">
       <div class="container">
-        <div class="card border-lg">
+        <div class="contact-section-header flex">
+          <div class="blob"></div>
+          <div>
+            <h2 class="text-p">Contact</h2>
+          </div>
+        </div>
+        <div class="conatct-section-body">
+          <div class="card border-lg">
             <div class="card-section">
-                <h2>Have something quiet and good to ship? Let's talk.</h2>
+              <h3 class="text-xl">
+                Have something unique and good to ship?
+                <span class="color-grey"> Let's talk. </span>
+              </h3>
             </div>
             <div class="card-section">
-                <button>
-                    miro@mail.com
-                </button>
-                <button>
-                    Book a meeting
-                </button>
+              <button class="btn btn-primary">miro@mail.com</button>
+              <button class="btn">Book a meeting</button>
             </div>
+          </div>
+          <div class="contact-link-grid">
+            <div class="card card-hover border-lg">
+              <div class="contact-card-header">
+                <h4 class="sub-heading">Linkedin</h4>
+                <div class="icon-link-container-small">
+                  <img src="./images/arrow-up-right.svg" alt="Arrow up right" />
+                </div>
+              </div>
+              <div class="card-section">
+                <p class="text-p">/mirok</p>
+              </div>
+            </div>
+
+            <div class="card card-hover border-lg">
+              <div class="contact-card-header">
+                <h4 class="sub-heading">Linkedin</h4>
+                <div class="icon-link-container-small">
+                  <img src="./images/arrow-up-right.svg" alt="Arrow up right" />
+                </div>
+              </div>
+              <div class="card-section">
+                <p class="text-p">/mirok</p>
+              </div>
+            </div>
+
+            <div class="card card-hover border-lg">
+              <div class="contact-card-header">
+                <h4 class="sub-heading">Linkedin</h4>
+                <div class="icon-link-container-small">
+                  <img src="./images/arrow-up-right.svg" alt="Arrow up right" />
+                </div>
+              </div>
+              <div class="card-section">
+                <p class="text-p">/mirok</p>
+              </div>
+            </div>
+
+            <div class="card card-hover border-lg">
+              <div class="contact-card-header">
+                <h4 class="sub-heading">Linkedin</h4>
+                <div class="icon-link-container-small">
+                  <img src="./images/arrow-up-right.svg" alt="Arrow up right" />
+                </div>
+              </div>
+              <div class="card-section">
+                <p class="text-p">/mirok</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+        <script src="./script.js"></script>
   </body>
 </html>
