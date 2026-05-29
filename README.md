@@ -2,7 +2,7 @@
 A responsive websitee built for the LUT Software Development Skills: Front-End 2025-26 course
 
 # Live Demo
-Live demo is available at: https://lively-fox-135770.netlify.app/
+Live demo is available at: https://samppa290.github.io/Software-Development-Skills/
 
 # How to run the project locally
 Project i about static website. No build tools or dependencies are needed. 

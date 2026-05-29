@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "name": "software-development-skills",
+  "version": "1.0.0",
+  "description": "A responsive websitee built for the LUT Software Development Skills: Front-End 2025-26 course",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages -d project"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samppa290/Software-Development-Skills.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/samppa290/Software-Development-Skills/issues"
+  },
+  "homepage": "https://samppa290.github.io/Software-Development-Skills/"
+}
