@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
+    <title>Miro's Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="utils.css" />
-    <link rel="stylesheet" href="contact.css" />
   </head>
   <body>
     <nav class="navigation">
@@ -23,12 +23,31 @@
             >
           </div>
         </div>
-        <div class="navigation-navigation-container">
+        <div class="navigation-navigation-container nav-mobile-hidden">
           <ul>
             <li>
               <a href="./index.html">Home</a>
             </li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="./index.html#projects">Projects</a></li>
+          </ul>
+          <button class="btn btn-primary">
+            <a href="./contact.html">Contact</a>
+          </button>
+        </div>
+        <button
+          id="hamburger-button"
+          class="hamburger-button nav-desktop-hidden"
+        >
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+        </button>
+        <div class="mobile-menu border-lg nav-desktop-hidden">
+          <ul>
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li><a href="./index.html#projects">Projects</a></li>
           </ul>
           <button class="btn btn-primary">
             <a href="./contact.html">Contact</a>
@@ -37,7 +56,7 @@
       </div>
     </nav>
 
-    <section class="contact-section">
+    <section class="contact-section" style="padding-top:100px">
       <div class="container">
         <div class="contact-section-header flex">
           <div class="blob"></div>
@@ -49,7 +68,7 @@
           <div class="card border-lg">
             <div class="card-section">
               <h3 class="text-xl">
-                Have something quiet and good to ship?
+                Have something unique and good to ship?
                 <span class="color-grey"> Let's talk. </span>
               </h3>
             </div>
@@ -110,5 +129,6 @@
         </div>
       </div>
     </section>
+    <script src="./script.js"></script>
   </body>
 </html>

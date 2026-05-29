@@ -28,10 +28,10 @@ body {
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
-  transition: .2s ease-in;
+  transition: 0.2s ease-in;
 }
 
-.card-hover:hover{
+.card-hover:hover {
   transform: translateY(-10px);
   cursor: pointer;
 }
@@ -40,7 +40,7 @@ ul {
   list-style-type: none;
 }
 
-a{
+a {
   color: #111;
   text-decoration: none;
 }
@@ -61,7 +61,7 @@ a{
   background: var(--light-color);
 }
 
-.color-grey{
+.color-grey {
   color: var(--grey-color);
 }
 
@@ -122,7 +122,7 @@ a{
   margin: 0 0 0.5rem 0;
 }
 
-.text-p{
+.text-p {
   font-size: 1rem;
   font-weight: normal;
 }
@@ -166,6 +166,12 @@ a{
   text-align: center;
 }
 
-.no-margin{
+.no-margin {
   margin: 0 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .text-xxl {
+    font-size: 2rem;
+  }
 }
