@@ -1,4 +1,4 @@
-# My front end project
+# Miro Kymäläinen Software Development Project
 A responsive websitee built for the LUT Software Development Skills: Front-End 2025-26 course
 
 # Live Demo
